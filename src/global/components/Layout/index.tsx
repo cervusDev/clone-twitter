@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 import { Container, Wrapper } from './styles';
 
 interface IProps {
-  children: React.ReactNode
+  children: ReactNode
 }
 
 export const Layout: React.FC<IProps> = ({ children }) => {
