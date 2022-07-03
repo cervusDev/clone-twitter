@@ -1,9 +1,12 @@
+import GlobalStyles from './global/styles/global.styles';
+
 export function App() {
 
   return (
-    <div>
-      run
-    </div>
+    <>
+      <h1>Rocketseat</h1>
+      <GlobalStyles />
+    </>
   )
 }
 
