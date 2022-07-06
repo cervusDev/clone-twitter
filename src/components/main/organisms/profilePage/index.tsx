@@ -1,9 +1,10 @@
 import React from 'react';
 
+import { Feed } from '../../molecules/feed'
 import { Banner } from '../../atoms/profilePage/banner'
 import { ProfileInfo } from '../../atoms/profilePage/info'
 import { Followage } from '../../atoms/profilePage/followage' 
-import { Container, ProfileData, EditButton } from './styles';
+import { Container, ProfileData, EditButton  } from './styles';
 
 export const ProfilePage: React.FC = () => {
   return (
@@ -17,6 +18,8 @@ export const ProfilePage: React.FC = () => {
         <Followage />
 
       </ProfileData>
+
+      <Feed />
     </Container>
   );
 }
