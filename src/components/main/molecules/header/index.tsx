@@ -1,6 +1,6 @@
 import { Container } from './styles'
-import { HeaderButton } from '../../atoms/button'
-import { ProfileInfo } from '../../atoms/profileInfo'
+import { HeaderButton } from '../../atoms/header/button'
+import { ProfileInfo } from '../../atoms/header/profileInfo'
 
 export const Header: React.FC = () => {
  return (
