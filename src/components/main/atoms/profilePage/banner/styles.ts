@@ -21,4 +21,15 @@ export const Avatar = styled.div`
   position: absolute;
   bottom: max(-60px, -10vw);
   left: 15px;
+
+  > img {
+    width: max(40px, min(130px, 21vw));
+    height: max(40px, min(130px, 21vw));
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: -2.1px;
+    right: -2.2px;
+  }
 `; 
